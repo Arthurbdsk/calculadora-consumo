@@ -1,7 +1,8 @@
+
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #ffffff, #ffffff);
-  color: #000;
+  background: linear-gradient(to bottom right, #414141, #0444f5);
+  color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,11 +10,11 @@ body {
 }
 
 .container {
-  background-color: #3f18ee;
+  background-color: #e3f2fd;
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  width: 600px;
+  width: 300px;
   text-align: center;
 }
 
@@ -26,8 +27,8 @@ input[type="number"], button {
 }
 
 button {
-  background-color: #5f84ff;
-  color: rgb(255, 255, 255);
+  background-color: #2196f3;
+  color: white;
   font-weight: bold;
   cursor: pointer;
 }
@@ -40,6 +41,8 @@ button:hover {
   margin-bottom: 15px;
 }
 
-#resultado 
+#resultado {
   margin-top: 15px;
   font-size: 18px;
+  color: #0d47a1;
+}
